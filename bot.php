@@ -1,5 +1,8 @@
 <?php
 require 'config.php';
+require 'vendor/autoload.php';
+
+
 echo 'hello';
 $input = file_get_contents('php://input');
 function getTelegramApi($method, $opt = null){
