@@ -1,6 +1,6 @@
 <?php
 require 'config.php';
-
+echo 'hello';
 $input = file_get_contents('php://input');
 function getTelegramApi($method, $opt = null){
   $url = API_URL . TOKEN . DIRECTORY_SEPARATOR . $method;
